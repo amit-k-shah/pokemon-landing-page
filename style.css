@@ -1,0 +1,61 @@
+/* Main container */
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+/* Left side */
+.left{
+    width: 60%;
+    background-color: #ffd400;
+    position: relative;
+}
+
+/* Right side */
+.right{
+    width: 40%;
+    background-color: #fff5cc;
+    position: relative;
+}
+
+/* Logo */
+.logo{
+    margin: 20px;
+    width: 120px;
+}
+
+/* Menu icon */
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu img{
+    width: 25px;
+    height: 25px;
+}
+
+/* Pikachu image */
+.pokemon{
+    position: relative;
+    top: 100px;
+    left: -1800px;
+    width: 400px;
+}
+
+/* Navigation dots */
+.dots{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+
+.dots span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 10px 0;
+}

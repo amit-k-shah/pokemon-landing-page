@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f5f5f5;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    width:90%;
+    height:90vh;
+    margin:30px auto;
+    display:flex;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    position:relative;
+}
+
+/* Left side */
+.left{
+    width: 55%;
+    background-color: #ffd400;
+    position: relative;
+
+}
+
+/* Right side */
+.right{
+    width: 40%;
+    background-color: #fff5cc;
+    position: relative;
+}
+
+/* Logo */
+.logo{
+    margin: 20px;
+    width: 120px;
+}
+
+/* Menu icon */
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu img{
+    width: 25px;
+    height: 25px;
+}
+
+.pokemon{
+    position:absolute;
+    width:550px;
+    left:-250px;
+    top:40px;
+}
+
+/* Navigation dots */
+.dots{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+
+.dots span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.content{
+    margin-top:20px;
+    margin-left:80px;
+    width:400px;
+}
+
+.content h4{
+    letter-spacing:8px;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.content h1{
+    font-size:120px;
+    font-family:Arial, sans-serif;
+    margin-bottom:20px;
+}
+
+.content p{
+    font-size:20px;
+    line-height:40px;
+    width:450px;
+    color:#333;
+}
+
